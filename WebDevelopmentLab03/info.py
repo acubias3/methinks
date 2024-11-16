@@ -2,7 +2,7 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Images/hermione.jpg"
+profile_picture = "WebDevelopmentLab03/Images/DA.jpg"
 about_me = "I'm Hermione Granger. Current Minister for Magic and former Hogwarts Alum. "
 
 
@@ -32,11 +32,11 @@ course_data = {
     }
 experience_data = {
     "House-elves rights advocate": (["- Worked on designing the Krabby Patty Recipe",
-                                                                          "- Increased Company Revenue by 200 dollars", "- Made Mr. Krabs Proud"],"Images/cook.jpg"),
+                                                                          "- Increased Company Revenue by 200 dollars", "- Made Mr. Krabs Proud"],"WebDevelopmentLab03/Images/DA.jpg"),
     "Department of Magical Law Enforcement":(["- Made the floor almost reflective",
-                                                           "- Increased customer visits by three folds by making restaurant clean"],"Images/cleaner.jpg"),
-    "Minister for Magic":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg"),
-    "Librarian and teacher":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg")
+                                                           "- Increased customer visits by three folds by making restaurant clean"],"v"),
+    "Minister for Magic":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"WebDevelopmentLab03/Images/DA.jpg"),
+    "Librarian and teacher":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"WebDevelopmentLab03/Images/DA.jpg")
     
 }
 
