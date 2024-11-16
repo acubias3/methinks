@@ -2,8 +2,8 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Images/harrypotter.jpg"
-about_me = "I'm Harry Potter . I go to school at Hogwarts and is known as 'The Boy Who Lived'. "
+profile_picture = "Images/hermione.jpg"
+about_me = "I'm Hermione Granger. Current Minister for Magic and former Hogwarts Alum. "
 
 
 #CHANGE BELOW (OPTIONAL)
@@ -12,65 +12,66 @@ github_image_url = "https://cdn-icons-png.flaticon.com/256/25/25231.png"
 email_image_url = "https://logowik.com/content/uploads/images/513_email.jpg"
 
 #CHANGE BELOW
-my_linkedin_url = "https://www.linkedin.com/in/spongebob-squarepants-44b857281/"
+my_linkedin_url = "https://www.linkedin.com/in/hermionegranger/"
 my_github_url = "https://github.com/spongebob-squarepants"
-my_email_address = "HarryPotter@gmail.com"
+my_email_address = "spongebob@gmail.com"
 
 
 education_data ={
     'Degree': 'Bachelor of Science in Computer Science',
     'Institution': 'Hogwarts School of Witchcraft and Wizardry',
-    'Location': 'Scottish Highlands,',
-    'Graduation Date': 'Never Graduated',
-    'GPA': 'N/A'
+    'Location': 'Scottish Highlands',
+    'Graduation Date': '1998',
+    'GPA': '4.0'
 }
 course_data = {
-    "code":["TR", "CH", "PT", "DADA"], 
-    "names":["Transfigurations", "Charms", "Potions", "Defense Against the Dark Arts"], 
-    "semester_taken":["1st-6th", "1st-6th", "1st-6th", "1st-6th"],
-    "skills":[" I learned how to turn matches into needles and mice into goblets", ". We learned spells like Wingardium Leviosa (levitating stuff—brilliant for pranks)", " I learned to brew all kinds of things", "DADA saved my life more times than I can count"],
+    "code":["MATH 300", "MAGIC 300", "ELEC 1503", "ELEC 340", "CHEM 345", "HIST 280", "GYM 180", "VMED 2050", "HIST 100"], 
+    "names":["Arithmancy", "Divination", "Tranfiguration", "Charms", "Potions","History of Magic", "Defense Against the Dark Arts", "Care of Magical Creatures", "Muggle Studies"], 
+    "semester_taken":["3rd", "3rd", "1st", "1st-5th", "1st-5th", "1st", "1st - 5th", "3rd", "3rd"],
+    "skills":["Python is not my favorite snake anymore", "OOP(S!) (Java Edition)", "Basically row reduction", "If only my grade was discrete too...", "Python is not my favorite snake anymore", "OOP(S!) (Java Edition)", "Basically row reduction", "If only my grade was discrete too...","If only my grade was discrete too..." ],
     }
 experience_data = {
-    "Auror, Ministry of Magic": (["- Reforming the Department of Magical Law Enforcement",
-                                                                          "- Apprehending dark wizards", "- Made Dumbledore Proud"],"Images/harryjob.jpg"),
-    "Founder and Leader, Dumbledore’s Army":(["- Recruited and trained students in advanced DADA'S spells ",
-                                                           "- Created combat strategies"],"Images/D-Army.jpg"),
-    "DADA Guest Lecturer":(["- Spoke about the Defense Against Dark Arts "],"Images/harryclass.jpg")
-
+    "House-elves rights advocate": (["- Worked on designing the Krabby Patty Recipe",
+                                                                          "- Increased Company Revenue by 200 dollars", "- Made Mr. Krabs Proud"],"Images/cook.jpg"),
+    "Department of Magical Law Enforcement":(["- Made the floor almost reflective",
+                                                           "- Increased customer visits by three folds by making restaurant clean"],"Images/cleaner.jpg"),
+    "Minister for Magic":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg"),
+    "Librarian and teacher":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg")
+    
 }
 
 projects_data = {
-    "Defeat of Lord Voldemort": "Led the mission to find and destroy Horcruxes,",
+    "Polyjuice Potion": "Created the famous Recipe and tailored it from scratch in 2nd year",
+    "Bag Extension Charm": "Created a charm to create enough space for all necessities while travelling",
 }
-
 programming_data = {
-    "Python": 90,
-    "Java": 70,
-    "C": 40,
+    "Non-verbal Spell Caster": 100,
+    "Patronus": 90,
+    "Dueling": 50,
 }
 
 #CHANGE BELOW (OPTIONAL)
 programming_icons = {
-    "Python": "🐍",
-    "Java": "☕",
-    "C": "🔍",
+    "Non-verbal Spell Caster": "🐍",
+    "Patronus": "☕",
+    "Dueling": "🔍",
 }
-spoken_icons = {"French": "🇫🇷",
-    "English": "",
-    "Spanish":"🇪🇸"
+spoken_icons = {"English": "🇫🇷",
+    "Ancient Runes": "🇬🇧",
+    "Latin":"🇪🇸"
 }
-
 
 #CHANGE BELOW
 spoken_data = {
     "English": "Fluent",
-    "Parseltongue": "Fluent",
+    "Ancient Runes": "Proficient",
+    "Latin": "Intermediate",
 }
 leadership_data = {
-    "Gryffindor Quidditch Team": (["- Led the team to multiple victories through strategic gameplay."],"Images/h-quidditch.jpg"),
+    "Dumbledore's Army": (["- teach fellow Hogwarts students proper Defence Against the Dark Arts"],"Images/DA.jpg"),
 
 }
 activity_data={
-    "Weasley Wizard Wheezes": ["- Volunteer for testing products", 
-            "- Made Fred and George laugh"]
+    "The Society for the Promotion of Elfish Welfare (S.P.E.W.)": ["- Stop abuse of magical creatures", 
+            "- Grant legal status for magical creatures"]
 }
