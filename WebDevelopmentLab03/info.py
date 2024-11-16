@@ -68,7 +68,7 @@ spoken_data = {
     "Latin": "Intermediate",
 }
 leadership_data = {
-    "Dumbledore's Army": (["- teach fellow Hogwarts students proper Defence Against the Dark Arts"],"Images/DA.jpg"),
+    "Dumbledore's Army": (["- teach fellow Hogwarts students proper Defence Against the Dark Arts"],"WebDevelopmentLab03/Images/DA.jpg"),
 
 }
 activity_data={
