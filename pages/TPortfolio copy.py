@@ -1,5 +1,5 @@
 import streamlit as st
-import Tinfo
+import Tinfo.py
 import pandas as pd
 #About me 
 def about_me_section():
