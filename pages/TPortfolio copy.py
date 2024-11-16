@@ -1,5 +1,5 @@
 import streamlit as st
-import Tinfo.py
+import info
 import pandas as pd
 #About me 
 def about_me_section():
@@ -42,7 +42,7 @@ def education_section(education_data, course_data):
     )
     st.write("---")
 
-education_section(info.education_data, info.course_data)
+education_section(Tinfo.education_data, Tinfo.course_data)
 
 #Professional Experience
 
@@ -54,7 +54,7 @@ def experience_section(experience_data):
         for bullet in job_description:
             expander.write(bullet)
     st.write("---")
-experience_section(info.experience_data)
+experience_section(Tinfo.experience_data)
 
 #Projects
 def project_section(projects_data):
@@ -63,7 +63,7 @@ def project_section(projects_data):
         expander=st.expander(f"{project_name}")
         expander.write(project_description)
     st.write("---")
-project_section(info.projects_data)
+project_section(Tinfo.projects_data)
 
 #Skills
 
@@ -77,7 +77,7 @@ def skills_section(programming_data, spoken_data):
     for spoken, proficiency in spoken_data.items():
         st.write(f"{spoken}{info.spoken_icons.get(spoken,"")}:{proficiency}")
     st.write("---")
-skills_section(info.programming_data, info.spoken_data)
+skills_section(Tinfo.programming_data, Tinfo.spoken_data)
 
 #Activities
 
@@ -99,4 +99,4 @@ def activities_section(leadership_data, activity_data):
                 expander.write(bullet)
     st.write("---")
 
-activities_section(info.leadership_data, info.activity_data)
+activities_section(Tinfo.leadership_data, Tinfo.activity_data)
